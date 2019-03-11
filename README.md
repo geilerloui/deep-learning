@@ -25,11 +25,11 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Intro to TFLearn](https://github.com/udacity/deep-learning/tree/master/intro-to-tflearn): A couple introductions to a high-level library for building neural networks.
 
 * Lessons on Tensorflow: 
-      * [Overview](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
-      * [Mini-batch](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
-      * [Epochs](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
-      * [Batch normalization](https://github.com/udacity/deep-learning/tree/master/batch-norm): Learn how to improve training rates and network stability with batch normalizations.
-      * [Weight Intialization](https://github.com/udacity/deep-learning/tree/master/weight-initialization): Explore how initializing network weights affects performance.
+                * [Overview](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
+                * [Mini-batch](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
+                * [Epochs](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
+                * [Batch normalization](https://github.com/udacity/deep-learning/tree/master/batch-norm): Learn how to improve training rates and network stability with batch normalizations.
+                * [Weight Intialization](https://github.com/udacity/deep-learning/tree/master/weight-initialization): Explore how initializing network weights affects performance.
       
 * [Intro to TensorFlow](https://github.com/udacity/deep-learning/tree/master/intro-to-tensorflow): Starting building neural networks with Tensorflow.
 
