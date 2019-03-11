@@ -28,9 +28,8 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
   * [Overview](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
   * [Mini-batch](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
   * [Epochs](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
-  * [Batch normalization](https://github.com/udacity/deep-learning/tree/master/batch-norm): Learn how to improve training rates and network stability with batch normalizations.
-  * [Weight Intialization](https://github.com/udacity/deep-learning/tree/master/weight-initialization): Explore how initializing network weights affects performance.
-      
+  * [Lesson "deep learning" to split](https://github.com/geilerloui/deep-learning/tree/master/Lesson_CovNets)
+
 * [Intro to TensorFlow](https://github.com/udacity/deep-learning/tree/master/intro-to-tensorflow): Starting building neural networks with Tensorflow.
 
 
@@ -63,7 +62,8 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 ### Tools
 
 * [Tensorboard](https://github.com/udacity/deep-learning/tree/master/tensorboard): Use TensorBoard to visualize the network graph, as well as how parameters change through training.
-
+* [Batch normalization](https://github.com/udacity/deep-learning/tree/master/batch-norm): Learn how to improve training rates and network stability with batch normalizations.
+* [Weight Intialization](https://github.com/udacity/deep-learning/tree/master/weight-initialization): Explore how initializing network weights affects performance.
 
 
 
