@@ -77,6 +77,11 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Machine Translation](https://github.com/udacity/deep-learning/tree/master/language-translation): Train a sequence to sequence network for English to French translation (on a simple dataset)
 * [Face Generation](https://github.com/udacity/deep-learning/tree/master/face_generation): Use a DCGAN on the CelebA dataset to generate images of novel and realistic human faces.
 
+## Datasets
+* [notMNIS](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html): consists of images of a letter from A to J in different fonts.
+* [MNIS](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_MNIST): is a set of images from 0 to 9
+
+
 ## Bibliography
 * [The Deep Learning Textbook](http://www.deeplearningbook.org/), from Ian GoodFellow ...
 * [Neural Networks And Deep Learning](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen
