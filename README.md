@@ -16,7 +16,7 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 
 * [Sentiment Analysis with Numpy](https://github.com/udacity/deep-learning/tree/master/sentiment-network): [Andrew Trask](http://iamtrask.github.io/) leads you through building a sentiment analysis model, predicting if some text is positive or negative.
 
-### 2. Neural Networks - Tensorflow, Keras
+### 2. Neural Networks - Tensorflow, Keras, TFLearn
 
 * [Miniflow](): is about Differentiable Graphs, the abstraction that tensorflow use to run and train networks. Miniflow will be our very own version of tensorflow.
 
