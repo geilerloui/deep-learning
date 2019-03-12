@@ -28,8 +28,11 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
   * [Overview](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
   * [Mini-batch](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
   * [Epochs](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
-  * [Lesson "deep learning" to split](https://github.com/geilerloui/deep-learning/tree/master/Lesson_CovNets)
-
+  * [Deep Neural Networks](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-1.ipynb)
+  * [Save and Restore TensorFlow models](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-2_Save_Restore_models.ipynb)
+  * [Loading the Weights and Biases into a new model](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-3_Loading_weights_in_new_model.ipynb)
+  * [Early Termination, Regularization and Dropout](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-4_Early_termination_regularization_dropout.ipynb)
+  
 * [Intro to TensorFlow](https://github.com/udacity/deep-learning/tree/master/intro-to-tensorflow): Starting building neural networks with Tensorflow.
 
 
