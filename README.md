@@ -78,6 +78,13 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Machine Translation](https://github.com/udacity/deep-learning/tree/master/language-translation): Train a sequence to sequence network for English to French translation (on a simple dataset)
 * [Face Generation](https://github.com/udacity/deep-learning/tree/master/face_generation): Use a DCGAN on the CelebA dataset to generate images of novel and realistic human faces.
 
+## Bibliography
+* [The Deep Learning Textbook](http://www.deeplearningbook.org/), from Ian GoodFellow ...
+* [Neural Networks And Deep Learning](http://neuralnetworksanddeeplearning.com/) by Michael Nielsen
+* [STAT 946](https://www.youtube.com/watch?v=XTWPyW2mTUg&list=PLehuLRPyt1HxTolYUWeyyIoxDabDmaOSB) by Ali Ghodsi Waterloo University
+* [CS231n Lecture 4 Backpropagation](https://www.youtube.com/watch?v=59Hbtz7XgjM) Computational Graph
+* [Andrej Karpathy on Backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b)
+* [History of Deep Learning](https://www.youtube.com/watch?v=ht6fLrar91U), by Frank Chen
 
 ## Dependencies
 
