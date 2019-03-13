@@ -25,12 +25,12 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Intro to TFLearn](https://github.com/udacity/deep-learning/tree/master/intro-to-tflearn): A couple introductions to a high-level library for building neural networks.
 
 * Lessons on Tensorflow: 
-  * [Basic Data Types and Functions](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): What is ```tf```, ```Session, constant, placeholder, feed_dict, add, subtract ..., cast, Variable, zeros, truncated_normal, Cross Entropy and Softmax```
-  * [Mini-batch and Epochs](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Quizz_Mini-batch.ipynb): Mini-batching is a technique for training on subsets of the dataset instead of all the data at one time. An Epoch is a single forward and backward pass on the whole dataset.
-  * [Multilayer Perceptron](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-1.ipynb)
-  * [Save and Restore TensorFlow models](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-2_Save_Restore_models.ipynb)
-  * [Loading the Weights and Biases into a new model](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-3_Loading_weights_in_new_model.ipynb)
-  * [Early Termination, Regularization and Dropout](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-4_Early_termination_regularization_dropout.ipynb)
+  * [Basic Data Types and Functions](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Intro_to_TensorFlow.ipynb): What is ```tf```, ```Session, constant, placeholder, feed_dict, add, subtract ..., cast, Variable, zeros, truncated_normal, Cross Entropy and Softmax```
+  * [Mini-batch and Epochs](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Mini-batch_Epochs.ipynb): Mini-batching is a technique for training on subsets of the dataset instead of all the data at one time. An Epoch is a single forward and backward pass on the whole dataset.
+  * [Multilayer Perceptron](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-1.ipynb)
+  * [Save and Restore TensorFlow models](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-2_Save_Restore_models.ipynb)
+  * [Loading the Weights and Biases into a new model](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-3_Loading_weights_in_new_model.ipynb)
+  * [Early Termination, Regularization and Dropout](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-4_Early_termination_regularization_dropout.ipynb)
   
 * [Intro to TensorFlow](https://github.com/udacity/deep-learning/tree/master/intro-to-tensorflow): Starting building neural networks with Tensorflow.
 
