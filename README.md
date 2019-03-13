@@ -26,8 +26,7 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 
 * Lessons on Tensorflow: 
   * [Basic Data Types and Functions](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): What is ```tf```, ```Session, constant, placeholder, feed_dict, add, subtract ..., cast, Variable, zeros, truncated_normal, Cross Entropy and Softmax```
-  * [Mini-batch](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Quizz_Mini-batch.ipynb): Mini-batching is a technique for training on subsets of the dataset instead of all the data at one time.
-  * [Epochs](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Lesson%202.4_Intro_to_TensorFlow.ipynb): ff
+  * [Mini-batch and Epochs](https://github.com/geilerloui/deep-learning/blob/master/intro-to-tensorflow/Quizz_Mini-batch.ipynb): Mini-batching is a technique for training on subsets of the dataset instead of all the data at one time. An Epoch is a single forward and backward pass on the whole dataset.
   * [Multilayer Perceptron](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-1.ipynb)
   * [Save and Restore TensorFlow models](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-2_Save_Restore_models.ipynb)
   * [Loading the Weights and Biases into a new model](https://github.com/geilerloui/deep-learning/blob/master/Lesson_CovNets/Deep_Neural_Network-3_Loading_weights_in_new_model.ipynb)
@@ -77,6 +76,11 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Text Generation](https://github.com/udacity/deep-learning/tree/master/tv-script-generation): Train a recurrent neural network on scripts from The Simpson's (copyright Fox) to generate new scripts.
 * [Machine Translation](https://github.com/udacity/deep-learning/tree/master/language-translation): Train a sequence to sequence network for English to French translation (on a simple dataset)
 * [Face Generation](https://github.com/udacity/deep-learning/tree/master/face_generation): Use a DCGAN on the CelebA dataset to generate images of novel and realistic human faces.
+
+## Datasets
+* [notMNIS](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html): consists of images of a letter from A to J in different fonts.
+* [MNIS](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_MNIST): is a set of images from 0 to 9
+
 
 ## Bibliography
 * [The Deep Learning Textbook](http://www.deeplearningbook.org/), from Ian GoodFellow ...
