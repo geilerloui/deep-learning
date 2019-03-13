@@ -26,8 +26,8 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 
 * Lessons on Tensorflow: 
   * [Basic Data Types and Functions](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Intro_to_TensorFlow.ipynb): What is ```tf```, ```Session, constant, placeholder, feed_dict, add, subtract ..., cast, Variable, zeros, truncated_normal, Cross Entropy and Softmax```
-  * [Mini-batch and Epochs](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Mini-batch_Epochs.ipynb): Mini-batching is a technique for training on subsets of the dataset instead of all the data at one time. An Epoch is a single forward and backward pass on the whole dataset.
-  * [Multilayer Perceptron](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-1.ipynb)
+  * [Mini-batch and Epochs](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Mini-batch_Epochs.ipynb): Mini-batching is a technique for training on subsets of the dataset instead of all the data at one time. An Epoch is a single forward and backward pass on the whole dataset. We downloaded the data with ```Keras```
+  * [Multilayer Perceptron](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-1.ipynb) The data will be downloaded with the new feature ```tf.data```
   * [Save and Restore TensorFlow models](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-2_Save_Restore_models.ipynb)
   * [Loading the Weights and Biases into a new model](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-3_Loading_weights_in_new_model.ipynb)
   * [Early Termination, Regularization and Dropout](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-4_Early_termination_regularization_dropout.ipynb)
