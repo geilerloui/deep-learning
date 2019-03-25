@@ -13,21 +13,20 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Your First Neural Network](https://github.com/udacity/deep-learning/tree/master/first-neural-network): Implement a neural network in Numpy to predict bike rentals.
 * [Sentiment Analysis with Numpy](https://github.com/udacity/deep-learning/tree/master/sentiment-network): [Andrew Trask](http://iamtrask.github.io/) leads you through building a sentiment analysis model, predicting if some text is positive or negative.
 
-### 2. Neural Networks - Tensorflow, Keras, TFLearn
+### 2. Feedforward Neural Networks - Tensorflow, Keras, TFLearn
 
-* [Miniflow](): is about Differentiable Graphs, the abstraction that tensorflow use to run and train networks. Miniflow will be our very own version of tensorflow.
-* [Intro to Keras](https://github.com/geilerloui/deep-learning/tree/master/student-admissions-keras): with a mini-project on student admission test
-* [Intro to TFLearn](https://github.com/udacity/deep-learning/tree/master/intro-to-tflearn): A couple introductions to a high-level library for building neural networks.
+* [Lesson 1: Miniflow](): is about Differentiable Graphs, the abstraction that tensorflow use to run and train networks. Miniflow will be our very own version of tensorflow.
+* [Lesson 2: Intro to Keras](https://github.com/geilerloui/deep-learning/tree/master/student-admissions-keras): with a mini-project on student admission test
+* [Lesson 3: Intro to TFLearn](https://github.com/udacity/deep-learning/tree/master/intro-to-tflearn): A couple introductions to a high-level library for building neural networks.
 
-* Lessons on Tensorflow: 
+* Lesson 4: Lessons on Tensorflow: 
   * [Basic Data Types and Functions](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Intro_to_TensorFlow.ipynb): What is ```tf```, ```Session, constant, placeholder, feed_dict, add, subtract ..., cast, Variable, zeros, truncated_normal, Cross Entropy and Softmax```
   * [Mini-batch and Epochs](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Mini-batch_Epochs.ipynb): Mini-batching is a technique for training on subsets of the dataset instead of all the data at one time. An Epoch is a single forward and backward pass on the whole dataset. We downloaded the data with ```Keras```
   * [Multilayer Perceptron](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-1.ipynb) The data will be downloaded with the new feature ```tf.data```
   * [Save and Restore TensorFlow models](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-2_Save_Restore_models.ipynb)
   * [Loading the Weights and Biases into a new model](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-3_Loading_weights_in_new_model.ipynb)
   * [Early Termination, Regularization and Dropout](https://github.com/geilerloui/deep-learning/blob/master/Lesson_NeuralNets/Deep_Neural_Network-4_Early_termination_regularization_dropout.ipynb)
-  
-* [Intro to TensorFlow](https://github.com/udacity/deep-learning/tree/master/intro-to-tensorflow): Starting building neural networks with Tensorflow.
+  * [Intro to TensorFlow](https://github.com/udacity/deep-learning/tree/master/intro-to-tensorflow): Starting building neural networks with Tensorflow.
 
 
 ### 3. Convolutional Neural Networks
@@ -41,19 +40,33 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 
 ### 4. Recurrent Neural Networks
 
-* [Intro to Recurrent Networks (Character-wise RNN)](https://github.com/udacity/deep-learning/tree/master/intro-to-rnns): Recurrent neural networks are able to use information about the sequence of data, such as the sequence of characters in text.
-* [Sentiment Analysis RNN](https://github.com/udacity/deep-learning/tree/master/sentiment-rnn): Implement a recurrent neural network that can predict if a text sample is positive or negative.
-* [Sequence to sequence](https://github.com/udacity/deep-learning/tree/master/seq2seq): Implement a sequence-to-sequence recurrent network.
-* [Embeddings (Word2Vec)](https://github.com/udacity/deep-learning/tree/master/embeddings): Implement the Word2Vec model to find semantic representations of words for use in natural language processing.
+* [Lesson 1: Recurrent Neural Networks](): XX
+* [Lesson 2: Long Short-Term Memory Networks (LSTM)](): XX
+* [Lesson 3: Implementation of RNN and LSTM](https://github.com/udacity/deep-learning/tree/master/intro-to-rnns): Recurrent neural networks are able to use information about the sequence of data, such as the sequence of characters in text.
+* [Lesson 5: Embeddings (Word2Vec)](https://github.com/udacity/deep-learning/tree/master/embeddings): Implement the Word2Vec model to find semantic representations of words for use in natural language processing.
+* [Lesson 6: Sentiment Analysis RNN](https://github.com/udacity/deep-learning/tree/master/sentiment-rnn): Implement a recurrent neural network that can predict if a text sample is positive or negative.
+* [Lesson 7: Sequence to sequence](https://github.com/udacity/deep-learning/tree/master/seq2seq): Implement a sequence-to-sequence recurrent network.
+
 
 ### 5. Generative Adversarial Networks
 
-* [Generative Adversatial Network on MNIST](https://github.com/udacity/deep-learning/tree/master/gan_mnist): Train a simple generative adversarial network on the MNIST dataset.
-* [Deep Convolutional GAN (DCGAN)](https://github.com/udacity/deep-learning/tree/master/dcgan-svhn): Implement a DCGAN to generate new images based on the Street View House Numbers (SVHN) dataset.
-* [Semi-Supervised GAN](https://github.com/geilerloui/deep-learning/tree/master/semi-supervised)
+* [Lesson 1: Generative Adversatial Network on MNIST](https://github.com/udacity/deep-learning/tree/master/gan_mnist): Train a simple generative adversarial network on the MNIST dataset.
+* [Lesson 2: Deep Convolutional GAN (DCGAN)](https://github.com/udacity/deep-learning/tree/master/dcgan-svhn): Implement a DCGAN to generate new images based on the Street View House Numbers (SVHN) dataset.
+* [Lesson 3: Semi-Supervised GAN](https://github.com/geilerloui/deep-learning/tree/master/semi-supervised)
 
 ### 6. Deep Reinforcement Learning
-
+* [Lesson 1: Introduction to RL](https://github.com/geilerloui/deep-learning/blob/master/reinforcement-learning/Lesson-1.md): Reinforcement learning is a type of Machine Learning where the machine or software agent learns how to maximize its performance at a task.
+* [Lesson 2: The RL Framework: The Problem](): Learn how to mathematically formulate tasks as Markov Decision Processes
+* [Lesson 3: The RL Framework: The Solution](): XX
+* [Lesson 4: Dynamic Programming](): XX
+* [Lesson 5: Monte Carlo Methods](): XX
+* [Lesson 6: Temporal-Difference Methods](): XX
+* [Lesson 7: Solve OpenAI Gym's Taxi-v2 Task](): XX
+* [Lesson 8: RL in Contunous Spaces](): XX
+* [Lesson 9: Deep Q-Learning](): XX
+* [Lesson 10: Policy-Based Methods](): XX
+* [Lesson 11: Actor-Critic Methods](): XX
+* [Lesson 12: Teach a Quadcoptere How to Fly](): XX
 * [Reinforcement Learning (Q-Learning)](https://github.com/udacity/deep-learning/tree/master/reinforcement): Implement a deep Q-learning network to play a simple game from OpenAI Gym.
 
 ### Tools
