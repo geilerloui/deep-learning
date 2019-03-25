@@ -50,12 +50,23 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 
 ### 5. Generative Adversarial Networks
 
-* [Generative Adversatial Network on MNIST](https://github.com/udacity/deep-learning/tree/master/gan_mnist): Train a simple generative adversarial network on the MNIST dataset.
-* [Deep Convolutional GAN (DCGAN)](https://github.com/udacity/deep-learning/tree/master/dcgan-svhn): Implement a DCGAN to generate new images based on the Street View House Numbers (SVHN) dataset.
-* [Semi-Supervised GAN](https://github.com/geilerloui/deep-learning/tree/master/semi-supervised)
+* [Lesson 1: Generative Adversatial Network on MNIST](https://github.com/udacity/deep-learning/tree/master/gan_mnist): Train a simple generative adversarial network on the MNIST dataset.
+* [Lesson 2: Deep Convolutional GAN (DCGAN)](https://github.com/udacity/deep-learning/tree/master/dcgan-svhn): Implement a DCGAN to generate new images based on the Street View House Numbers (SVHN) dataset.
+* [Lesson 3: Semi-Supervised GAN](https://github.com/geilerloui/deep-learning/tree/master/semi-supervised)
 
 ### 6. Deep Reinforcement Learning
-
+* [Lesson 1: Introduction to RL](): XX
+* [Lesson 2: The RL Framework: The Problem](): XX
+* [Lesson 3: The RL Framework: The Solution](): XX
+* [Lesson 4: Dynamic Programming](): XX
+* [Lesson 5: Monte Carlo Methods](): XX
+* [Lesson 6: Temporal-Difference Methods](): XX
+* [Lesson 7: Solve OpenAI Gym's Taxi-v2 Task](): XX
+* [Lesson 8: RL in Contunous Spaces](): XX
+* [Lesson 9: Deep Q-Learning](): XX
+* [Lesson 10: Policy-Based Methods](): XX
+* [Lesson 11: Actor-Critic Methods](): XX
+* [Lesson 12: Teach a Quadcoptere How to Fly](): XX
 * [Reinforcement Learning (Q-Learning)](https://github.com/udacity/deep-learning/tree/master/reinforcement): Implement a deep Q-learning network to play a simple game from OpenAI Gym.
 
 ### Tools
