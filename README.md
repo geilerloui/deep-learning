@@ -55,8 +55,8 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Lesson 3: Semi-Supervised GAN](https://github.com/geilerloui/deep-learning/tree/master/semi-supervised)
 
 ### 6. Deep Reinforcement Learning
-* [Lesson 1: Introduction to RL](): XX
-* [Lesson 2: The RL Framework: The Problem](): XX
+* [Lesson 1: Introduction to RL](https://github.com/geilerloui/deep-learning/blob/master/reinforcement-learning/Lesson-1.md): Reinforcement learning is a type of Machine Learning where the machine or software agent learns how to maximize its performance at a task.
+* [Lesson 2: The RL Framework: The Problem](): Learn how to mathematically formulate tasks as Markov Decision Processes
 * [Lesson 3: The RL Framework: The Solution](): XX
 * [Lesson 4: Dynamic Programming](): XX
 * [Lesson 5: Monte Carlo Methods](): XX
