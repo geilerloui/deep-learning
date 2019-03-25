@@ -9,7 +9,7 @@ Then, at the next timestep in response to the agent action, the environment pres
 At the same time the environment gives the agent a reward which provides some indication of wether the agent has 
 responded appropriately to the environment. Then, the process continues ...
 
-<img src="image/2-1_RL.png" style="height:50px">
+<img src="image/2-1_RL.png">
 
 In general, we don't need to assume that the environment shows the agent everything he needs to make well-informed
 decisions. But it greatly simplifies the underlying mathematics if we do. So in this course, we'll make the assumption that the agent is able to fully observe what ever state the environment is in. And instead of referring to the agent as receiving an observation, Huntsworth say that it receives the environment state.
