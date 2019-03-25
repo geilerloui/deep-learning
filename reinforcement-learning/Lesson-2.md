@@ -13,3 +13,5 @@ responded appropriately to the environment. Then, the process continues ...
 
 In general, we don't need to assume that the environment shows the agent everything he needs to make well-informed
 decisions. But it greatly simplifies the underlying mathematics if we do. So in this course, we'll make the assumption that the agent is able to fully observe what ever state the environment is in. And instead of referring to the agent as receiving an observation, Huntsworth say that it receives the environment state.
+
+The Goal of the Agent: Maximize expected cumulative reward.
