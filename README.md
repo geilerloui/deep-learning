@@ -13,7 +13,7 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Your First Neural Network](https://github.com/udacity/deep-learning/tree/master/first-neural-network): Implement a neural network in Numpy to predict bike rentals.
 * [Sentiment Analysis with Numpy](https://github.com/udacity/deep-learning/tree/master/sentiment-network): [Andrew Trask](http://iamtrask.github.io/) leads you through building a sentiment analysis model, predicting if some text is positive or negative.
 
-### 2. Neural Networks - Tensorflow, Keras, TFLearn
+### 2. Feedforward Neural Networks - Tensorflow, Keras, TFLearn
 
 * [Lesson 1: Miniflow](): is about Differentiable Graphs, the abstraction that tensorflow use to run and train networks. Miniflow will be our very own version of tensorflow.
 * [Lesson 2: Intro to Keras](https://github.com/geilerloui/deep-learning/tree/master/student-admissions-keras): with a mini-project on student admission test
