@@ -26,7 +26,7 @@ But I won't keep you from it any longer. For this lab, follow the tutorial links
 Although we won't use open agent just yet. I highly recommend following the tutorial now to build 
 your excitement for the kind of implementations you'll build in this course. We'll have to spend a bit of time developing that theory before jumping in. But I guarantee you that it's more than worth it.
 
-**Bibliography:**
-https://openai.com/blog/openai-gym-beta/
-Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto
-https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf
+**Bibliography:** . 
+https://openai.com/blog/openai-gym-beta/ . 
+Reinforcement Learning: An Introduction by Richard S. Sutton and Andrew G. Barto . 
+https://s3-us-west-1.amazonaws.com/udacity-drlnd/bookdraft2018.pdf . 
