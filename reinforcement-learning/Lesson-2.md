@@ -7,7 +7,7 @@ This lesson covers material in **Chapter 3** (especially 3.1-3.3) of the textboo
 ## 2. The Setting, Revisited
 
 The RL framework is characterized by an agent learned to interact with its environment. We will assume that time evolves at discrete time steps.
-At the initial timestep, the agent observes the environment. Then, it must select an appropriate action in response. Then, at the next timestep in response to the agent action, the environment presents a new situation to the agent. At the same time the environment gives the agent a reward which provides some indication of wether the agent has responded appropriately to the environment. Then, the process continues ...
+At the initial time step, the agent observes the environment. Then, it must select an appropriate action in response. Then, at the next timestep in response to the agent action, the environment presents a new situation to the agent. At the same time the environment gives the agent a reward which provides some indication of wether the agent has responded appropriately to the environment. Then, the process continues ...
 
 <img src="images/2-1_RL.png" style="height:200px">
 
@@ -19,7 +19,7 @@ The Agent first receives the environment state which we denote by S0. Then, base
 
 <img src="images/2-3_RL.png" style="height:200px">
 
-Everything Agent has the goal to: **Maximize expected cumulative reward**.
+Every Agent has the goal to: **Maximize expected cumulative reward**.
 
 ## 3. Episodic vs. COntinuing tasks
 
@@ -31,11 +31,13 @@ Everything Agent has the goal to: **Maximize expected cumulative reward**.
 
 > Example: Stock market
 
-**Episodic Task with Sparse Reward - Playing Chess:**
+
+
+#### Episodic Task with Sparse Reward - Playing Chess:
 
 -------
 
-Playing Chess: Say you are an agent, and your goal is to play chess. At every time step, you choose any action from the set of possible moves in the game. Your opponent is part of the environment; she responds with her own move, and the **state** you receive at the next time step is the configuration of the board, when it’s your turn to choose a move again. The **reward** is only delivered at the end of the game, and, let’s say, is +1 if you win, and -1 if you lose.
+Say you are an agent, and your goal is to play chess. At every time step, you choose any action from the set of possible moves in the game. Your opponent is part of the environment; she responds with her own move, and the **state** you receive at the next time step is the configuration of the board, when it’s your turn to choose a move again. The **reward** is only delivered at the end of the game, and, let’s say, is +1 if you win, and -1 if you lose.
 
 This is an **episodic task**, where an episode finishes when the game ends. The idea is that by playing the game many times, or by interacting with the environment in many episodes, you can learn to play chess better and better.
 
@@ -53,7 +55,7 @@ When the reward signal is largely uninformative in this way, we say that the tas
 >
 > For a robot: Learn to walk
 
-### Making a Robot walk:
+#### Making a Robot walk:
 
 -----
 
@@ -81,11 +83,13 @@ They frame the problem **as an episodic task** where if the human falls, then th
 
 ## 5. cumulative reward
 
-02:40 a finir
+Along these lines in the walking robot example, the agent always has reward at all time steps in mind, it will learn to choose movement designed for long term stability. So in this way, the robot moves a bit slowly to sacrifice a little bit of reward but it will payoff because it will avoid falling for longer and collect higher cumulative reward.
+
+How exactly does it keep all time steps in mind ? All previous time steeps have already been decided as they're in the past. Only future reward are inside the agent's control.
 
 <img src="images/2-10_RL.png" style="height:150px">
 
-The agent will always choose an action towards the goal of maximizing the return but it's actually more accurate to say that the agent seeks to maximise expected return this it because it's generally the case that the agent can't predict with complete certainty what the future reward is likely to be so it has to reely on a prediction or an estimate.
+The agent will always choose an action towards the goal of maximizing the return but it's actually more accurate to say that the agent seeks to maximise expected return this it because **it's generally the case that the agent can't predict with complete certainty what the future reward is likely to be so it has to rely on a prediction or an estimate.**
 
 <img src="images/2-11_RL.png" style="height:75px">
 
@@ -111,7 +115,7 @@ XXX
 
 ## 7. Markov decision process (mdp) - Part 1
 
-We will learn how to rigorously define a reinforcement learning problem as a Markov Decision Process (MDP)
+We will learn how to rigorously define a reinforcement learning problem as a **Markov Decision Process (MDP)**
 
 We will work with a recycling robot from the Sutton textbook. Consider a robot that's designed for picking up empty soda cans. The robot is equipped with arms to grab the cans and runs on a rechargeable battery. There's a docking station set up in one corner of the room and the robot has to sit at the station if it needs to recharge its battery.
 
@@ -164,9 +168,26 @@ This picture completely characterize one method. What's important to emphasize h
 
 ---
 
-Consider the recyling robot example.
+Consider the recyling robot example. In the previous concept, we described one method that the environment could use to decide the state and reward, at any time step.
 
-XXXX
+Say at an arbitrary time step $t​$, the state of the robot's battery is high ($S_t=high​$). Then, in response, the agent decides to search ($A_t=search​$). You learned in the previous concept that in this case, the environment responds to the agent by flipping a theoretical coin with 70% probability of landing heads. Then we can be at state:, $(S_{t+1}=high,~ R_{t+1}=4)​$ or $(S_{t+1}=low,~ R_{t+1}=4)​$
+
+When the environment responds to the agent at time step $t+1​$, it considers only the state and action at the previous time step $(S_t, A_t)​$. In particular, it does not care what state/actions was presented to the agent one step prior. Mathematically $(S_0,…,S_{t-1})​$ and $(A_0,…,A_{t-1})​$.
+
+Furthermore, how well the agent is doing or how much reward it is collecting, has no effect on how the environment chooses to respond to the agent. $(R_0,…,R_{t})​$
+
+<img src="images/2-14_RL.png" style="height:200px">
+
+Because of this, we can completely define how the environment decides the state and reward by specifying:
+$$
+p(s′,r∣s,a)≐P(S_{t+1}=s',R_{t+1}=r∣S_t=s,A_t=a)
+$$
+for each possible $s',r,s$ and $a$. These conditional probabilities are said to specify the **one-step dynamics** of the environment.
+
+Then, when the environment responds to the agent at the next time step,
+
+- with 70% probability, the next state is high and the reward is 4. In other words, $p(\text{high}, 4|\text{high},\text{search}) = \mathbb{P}(S_{t+1}=\text{high}, R_{t+1}=4|S_{t} = \text{high}, A_{t}=\text{search}) = 0.7​$
+- with 30% probability, the next state is low and the reward is 4. In other words, $p(\text{low}, 4|\text{high},\text{search}) = \mathbb{P}(S_{t+1}=\text{low}, R_{t+1}=4|S_{t} = \text{high}, A_{t}=\text{search}) = 0.3$.
 
 ## 9. Markov decision process (mdp) - Part 3
 
@@ -177,10 +198,6 @@ XXXX
 For the discount rate we usually should set the value to be close to one, like $\gamma=0.9$
 
 This framework works for continuing and episodic tasks and whenever you have a problem that you want to solve with reinforcement learning wether it entails self-driving car or stock trading agent, this is the framework
-
-## 10. Summary
-
-
 
 
 
