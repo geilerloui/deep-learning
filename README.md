@@ -37,6 +37,7 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Lesson 5: Autoencoders](https://github.com/udacity/deep-learning/tree/master/autoencoder): Build models for image compression and denoising, using feed-forward and convolution networks in TensorFlow.
 * [Lesson 6: Transfer Learning (ConvNet)](https://github.com/udacity/deep-learning/tree/master/transfer-learning). In practice, most people don't train their own large networkd on huge datasets, but use pretrained networks such as VGGnet. Here you'll use VGGnet to classify images of flowers without training a network on the images themselves.
 * [Lesson 7: Deep Learning for Cancer Detection with Sebastian Thrun]()
+* [Project: Image classification](https://github.com/udacity/deep-learning/tree/master/image-classification): Build a convolutional neural network with TensorFlow to classify CIFAR-10 images.
 
 ### 4. Recurrent Neural Networks
 
@@ -45,16 +46,19 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Lesson 3: Implementation of RNN and LSTM](https://github.com/udacity/deep-learning/tree/master/intro-to-rnns): Recurrent neural networks are able to use information about the sequence of data, such as the sequence of characters in text.
 * [Lesson 5: Embeddings (Word2Vec)](https://github.com/udacity/deep-learning/tree/master/embeddings): Implement the Word2Vec model to find semantic representations of words for use in natural language processing.
 * [Lesson 6: Sentiment Analysis RNN](https://github.com/udacity/deep-learning/tree/master/sentiment-rnn): Implement a recurrent neural network that can predict if a text sample is positive or negative.
+* [Project 1: Text Generation](https://github.com/udacity/deep-learning/tree/master/tv-script-generation): Train a recurrent neural network on scripts from The Simpson's (copyright Fox) to generate new scripts.
 * [Lesson 7: Sequence to sequence](https://github.com/udacity/deep-learning/tree/master/seq2seq): Implement a sequence-to-sequence recurrent network.
-
+* [Project 2: Machine Translation](https://github.com/udacity/deep-learning/tree/master/language-translation): Train a sequence to sequence network for English to French translation (on a simple dataset)
 
 ### 5. Generative Adversarial Networks
 
 * [Lesson 1: Generative Adversatial Network on MNIST](https://github.com/udacity/deep-learning/tree/master/gan_mnist): Train a simple generative adversarial network on the MNIST dataset.
 * [Lesson 2: Deep Convolutional GAN (DCGAN)](https://github.com/udacity/deep-learning/tree/master/dcgan-svhn): Implement a DCGAN to generate new images based on the Street View House Numbers (SVHN) dataset.
 * [Lesson 3: Semi-Supervised GAN](https://github.com/geilerloui/deep-learning/tree/master/semi-supervised)
+* [Project: Face Generation](https://github.com/udacity/deep-learning/tree/master/face_generation): Use a DCGAN on the CelebA dataset to generate images of novel and realistic human faces.
 
 ### 6. Deep Reinforcement Learning
+
 * [Lesson 1: Introduction to RL](https://github.com/geilerloui/deep-learning/blob/master/reinforcement-learning/Lesson-1.md): Reinforcement learning is a type of Machine Learning where the machine or software agent learns how to maximize its performance at a task.
 * [Lesson 2: The RL Framework: The Problem](): Learn how to mathematically formulate tasks as Markov Decision Processes
 * [Lesson 3: The RL Framework: The Solution](): XX
@@ -74,16 +78,6 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Tensorboard](https://github.com/udacity/deep-learning/tree/master/tensorboard): Use TensorBoard to visualize the network graph, as well as how parameters change through training.
 * [Batch normalization](https://github.com/udacity/deep-learning/tree/master/batch-norm): Learn how to improve training rates and network stability with batch normalizations.
 
-
-
-
-### Projects
-
-* [Your First Neural Network](https://github.com/udacity/deep-learning/tree/master/first-neural-network): Implement a neural network in Numpy to predict bike rentals.
-* [Image classification](https://github.com/udacity/deep-learning/tree/master/image-classification): Build a convolutional neural network with TensorFlow to classify CIFAR-10 images.
-* [Text Generation](https://github.com/udacity/deep-learning/tree/master/tv-script-generation): Train a recurrent neural network on scripts from The Simpson's (copyright Fox) to generate new scripts.
-* [Machine Translation](https://github.com/udacity/deep-learning/tree/master/language-translation): Train a sequence to sequence network for English to French translation (on a simple dataset)
-* [Face Generation](https://github.com/udacity/deep-learning/tree/master/face_generation): Use a DCGAN on the CelebA dataset to generate images of novel and realistic human faces.
 
 ## Datasets
 * [notMNIS](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html): consists of images of a letter from A to J in different fonts.
