@@ -45,6 +45,7 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Lesson 1: Recurrent Neural Networks](): XX
 * [Lesson 2: Long Short-Term Memory Networks (LSTM)](): XX
 * [Lesson 3: Implementation of RNN and LSTM](https://github.com/udacity/deep-learning/tree/master/intro-to-rnns): Recurrent neural networks are able to use information about the sequence of data, such as the sequence of characters in text.
+* [Lesson 4: Hyperparameters](): In this lesson, we'll look at number of different hyperparameter that are important for our deep learning to work. We'll discuss starting values and intuitions for tuning each hyperparameter.
 * [Lesson 5: Embeddings (Word2Vec)](https://github.com/udacity/deep-learning/tree/master/embeddings): Implement the Word2Vec model to find semantic representations of words for use in natural language processing.
 * [Lesson 6: Sentiment Analysis RNN](https://github.com/udacity/deep-learning/tree/master/sentiment-rnn): Implement a recurrent neural network that can predict if a text sample is positive or negative.
 * [Project 1: Text Generation](https://github.com/udacity/deep-learning/tree/master/tv-script-generation): Train a recurrent neural network on scripts from The Simpson's (copyright Fox) to generate new scripts.
