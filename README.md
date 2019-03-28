@@ -32,11 +32,14 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 ### 3. Convolutional Neural Networks
 
 * [Lesson 2: CNN in TensorFlow]()
-* [Lesson 3: Weight Intialization](https://github.com/udacity/deep-learning/tree/master/weight-initialization): Explore how initializing network weights affects performance.
-* [Lesson 4: Convolutional Neural Networks]()
-* [Lesson 5: Autoencoders](https://github.com/udacity/deep-learning/tree/master/autoencoder): Build models for image compression and denoising, using feed-forward and convolution networks in TensorFlow.
-* [Lesson 6: Transfer Learning (ConvNet)](https://github.com/udacity/deep-learning/tree/master/transfer-learning). In practice, most people don't train their own large networkd on huge datasets, but use pretrained networks such as VGGnet. Here you'll use VGGnet to classify images of flowers without training a network on the images themselves.
-* [Lesson 7: Deep Learning for Cancer Detection with Sebastian Thrun]()
+* [Lesson 3: Convolutional Neural Networks]()
+* [Lesson 4: Autoencoders](https://github.com/udacity/deep-learning/tree/master/autoencoder): Build models for image compression and denoising, using feed-forward and convolution networks in TensorFlow.
+* [Lesson 5: Transfer Learning (ConvNet)](https://github.com/udacity/deep-learning/tree/master/transfer-learning). In practice, most people don't train their own large networkd on huge datasets, but use pretrained networks such as VGGnet. Here you'll use VGGnet to classify images of flowers without training a network on the images themselves.
+* [Lesson 6: Deep Learning for Cancer Detection with Sebastian Thrun]()
+
+* [Lesson 7: Weight Intialization](https://github.com/udacity/deep-learning/tree/master/weight-initialization): Explore how initializing network weights affects performance.
+* [Lesson 8: Batch normalization](https://github.com/udacity/deep-learning/tree/master/batch-norm): Learn how to improve training rates and network stability with batch normalizations.
+
 * [Project: Image classification](https://github.com/udacity/deep-learning/tree/master/image-classification): Build a convolutional neural network with TensorFlow to classify CIFAR-10 images.
 
 ### 4. Recurrent Neural Networks
@@ -76,12 +79,11 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 ### Tools
 
 * [Tensorboard](https://github.com/udacity/deep-learning/tree/master/tensorboard): Use TensorBoard to visualize the network graph, as well as how parameters change through training.
-* [Batch normalization](https://github.com/udacity/deep-learning/tree/master/batch-norm): Learn how to improve training rates and network stability with batch normalizations.
 
 
 ## Datasets
 * [notMNIS](http://yaroslavvb.blogspot.com/2011/09/notmnist-dataset.html): consists of images of a letter from A to J in different fonts.
-* [MNIS](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_MNIST): is a set of images from 0 to 9
+* [MNIST](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_MNIST): is a set of images from 0 to 9
 
 
 ## Bibliography
