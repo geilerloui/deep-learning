@@ -36,10 +36,8 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Lesson 4: Autoencoders](https://github.com/udacity/deep-learning/tree/master/autoencoder): Build models for image compression and denoising, using feed-forward and convolution networks in TensorFlow.
 * [Lesson 5: Transfer Learning (ConvNet)](https://github.com/udacity/deep-learning/tree/master/transfer-learning). In practice, most people don't train their own large networkd on huge datasets, but use pretrained networks such as VGGnet. Here you'll use VGGnet to classify images of flowers without training a network on the images themselves.
 * [Lesson 6: Deep Learning for Cancer Detection with Sebastian Thrun]()
-
 * [Lesson 7: Weight Intialization](https://github.com/udacity/deep-learning/tree/master/weight-initialization): Explore how initializing network weights affects performance.
 * [Lesson 8: Batch normalization](https://github.com/udacity/deep-learning/tree/master/batch-norm): Learn how to improve training rates and network stability with batch normalizations.
-
 * [Project: Image classification](https://github.com/udacity/deep-learning/tree/master/image-classification): Build a convolutional neural network with TensorFlow to classify CIFAR-10 images.
 
 ### 4. Recurrent Neural Networks
