@@ -74,7 +74,7 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Lesson 10: Policy-Based Methods](): Policy-based methods try to directly optimize for the optimal policy. LEarn, how they work, and why they are important, especially for domains with continuous action spaces.
 * [Lesson 11: Actor-Critic Methods](): Learn how to combine value-based and policy-based methods, bringing together the best of both world, to solve challenging reinforcement learning problems.
 * [Lesson 12: Teach a Quadcoptere How to Fly](): Build a quadcopter flying ageent that learns to take off, hover and land using reinforcement learning
-* [Reinforcement Learning (Q-Learning)](https://github.com/udacity/deep-learning/tree/master/reinforcement): Implement a deep Q-learning network to play a simple game from OpenAI Gym.
+* [Project: Reinforcement Learning (Q-Learning)](https://github.com/udacity/deep-learning/tree/master/reinforcement): Implement a deep Q-learning network to play a simple game from OpenAI Gym.
 
 ### Tools
 
