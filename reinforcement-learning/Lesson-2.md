@@ -135,7 +135,7 @@ The states could be:
 
 * The charge left on the robot's battery. We will assume that the battery has one of two states (high and low amount of charge left)
 
-We refer to **the set of all possible actons as the state space**
+We refer to **the set of all possible actions as the state space**
 $$
 \mathcal{S} = [high, low]
 $$
@@ -170,9 +170,9 @@ This picture completely characterize one method. What's important to emphasize h
 
 Consider the recyling robot example. In the previous concept, we described one method that the environment could use to decide the state and reward, at any time step.
 
-Say at an arbitrary time step $t​$, the state of the robot's battery is high ($S_t=high​$). Then, in response, the agent decides to search ($A_t=search​$). You learned in the previous concept that in this case, the environment responds to the agent by flipping a theoretical coin with 70% probability of landing heads. Then we can be at state:, $(S_{t+1}=high,~ R_{t+1}=4)​$ or $(S_{t+1}=low,~ R_{t+1}=4)​$
+Say at an arbitrary time step $t$, the state of the robot's battery is high ($S_t=high$). Then, in response, the agent decides to search ($A_t=search$). You learned in the previous concept that in this case, the environment responds to the agent by flipping a theoretical coin with 70% probability of landing heads. Then we can be at state: $(S_{t+1}=high,~ R_{t+1}=4)$ or $(S_{t+1}=low,~ R_{t+1}=4)$
 
-When the environment responds to the agent at time step $t+1​$, it considers only the state and action at the previous time step $(S_t, A_t)​$. In particular, it does not care what state/actions was presented to the agent one step prior. Mathematically $(S_0,…,S_{t-1})​$ and $(A_0,…,A_{t-1})​$.
+When the environment responds to the agent at time step $t+1$, it considers only the state and action at the previous time step $(S_t, A_t)$. In particular, it does not care what state/actions was presented to the agent one step prior. Mathematically $(S_0,…,S_{t-1})$ and $(A_0,…,A_{t-1})$.
 
 Furthermore, how well the agent is doing or how much reward it is collecting, has no effect on how the environment chooses to respond to the agent. $(R_0,…,R_{t})​$
 
