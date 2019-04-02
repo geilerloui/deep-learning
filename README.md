@@ -93,6 +93,8 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [CS231n Lecture 4 Backpropagation](https://www.youtube.com/watch?v=59Hbtz7XgjM) Computational Graph
 * [Andrej Karpathy on Backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b)
 * [History of Deep Learning](https://www.youtube.com/watch?v=ht6fLrar91U), by Frank Chen
+* [Reinforcement learning: An Introduction, by Andrew Barto and Richard Sutton](https://www.youtube.com/watch?v=ht6fLrar91U), by Frank Chen
+
 
 ## Dependencies
 
