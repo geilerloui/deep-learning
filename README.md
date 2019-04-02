@@ -62,18 +62,19 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 ### 6. Deep Reinforcement Learning
 
 * [Lesson 1: Introduction to RL](https://github.com/geilerloui/deep-learning/blob/master/reinforcement-learning/Lesson-1.md): Reinforcement learning is a type of Machine Learning where the machine or software agent learns how to maximize its performance at a task.
-* [Lesson 2: The RL Framework: The Problem](): Learn how to mathematically formulate tasks as Markov Decision Processes
-* [Lesson 3: The RL Framework: The Solution](): XX
-* [Lesson 4: Dynamic Programming](): XX
-* [Lesson 5: Monte Carlo Methods](): XX
-* [Lesson 6: Temporal-Difference Methods](): XX
-* [Lesson 7: Solve OpenAI Gym's Taxi-v2 Task](): XX
-* [Lesson 8: RL in Contunous Spaces](): XX
-* [Lesson 9: Deep Q-Learning](): XX
-* [Lesson 10: Policy-Based Methods](): XX
-* [Lesson 11: Actor-Critic Methods](): XX
-* [Lesson 12: Teach a Quadcoptere How to Fly](): XX
-* [Reinforcement Learning (Q-Learning)](https://github.com/udacity/deep-learning/tree/master/reinforcement): Implement a deep Q-learning network to play a simple game from OpenAI Gym.
+* [Lesson 2: The RL Framework: The Problem](https://github.com/geilerloui/deep-learning/blob/master/reinforcement-learning/Lesson-2.md): Learn how to mathematically formulate tasks as Markov Decision Processes
+* [Lesson 3: The RL Framework: The Solution](https://github.com/geilerloui/deep-learning/blob/master/reinforcement-learning/Lesson-3.md): XX
+* [Lesson 4: Dynamic Programming](): The dynamic programming setting is a useful first step towards tackling the reinforement learning problem.
+* [Exercice Lesson 4: Dynamic Programming](https://github.com/geilerloui/deep-learning/blob/master/reinforcement-learning/Exercice_Lesson-4/Dynamic_Programming.ipynb): Execise with OpenAI Gym: FrozenLakeEnv
+* [Lesson 5: Monte Carlo Methods](): Write your own implementation of Monte Carlo control to teach an agent to play Blackjack ! With OpenAI Gym: BlackjackEnv
+* [Lesson 6: Temporal-Difference Methods](): Learn about how to apply temporal-difference methods such as Sarsa, Q-Learning, and Expected Sarsa to solve both episodic and continuous tasks.
+* [Lesson 7: Solve OpenAI Gym's Taxi-v2 Task](): With reinforcement learning now in your toolbox, you're ready to explore a mini project using OpenAI Gym!
+* [Lesson 8: RL in Contunous Spaces](): Review the fundamental concepts of reinforcement learning, and learn how to adapt traditional algorithms to work with continuious spaces.
+* [Lesson 9: Deep Q-Learning](): Extend value-based reinforcement learning methods to complex problems using deep neural networks.
+* [Lesson 10: Policy-Based Methods](): Policy-based methods try to directly optimize for the optimal policy. LEarn, how they work, and why they are important, especially for domains with continuous action spaces.
+* [Lesson 11: Actor-Critic Methods](): Learn how to combine value-based and policy-based methods, bringing together the best of both world, to solve challenging reinforcement learning problems.
+* [Lesson 12: Teach a Quadcoptere How to Fly](): Build a quadcopter flying ageent that learns to take off, hover and land using reinforcement learning
+* [Project: Reinforcement Learning (Q-Learning)](https://github.com/udacity/deep-learning/tree/master/reinforcement): Implement a deep Q-learning network to play a simple game from OpenAI Gym.
 
 ### Tools
 
@@ -92,6 +93,8 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [CS231n Lecture 4 Backpropagation](https://www.youtube.com/watch?v=59Hbtz7XgjM) Computational Graph
 * [Andrej Karpathy on Backprop](https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b)
 * [History of Deep Learning](https://www.youtube.com/watch?v=ht6fLrar91U), by Frank Chen
+* [Reinforcement learning: An Introduction, by Andrew Barto and Richard Sutton](https://www.youtube.com/watch?v=ht6fLrar91U), by Frank Chen
+
 
 ## Dependencies
 
