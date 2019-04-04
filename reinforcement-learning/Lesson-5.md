@@ -133,11 +133,32 @@ We can finally adjust the algorithm:
 
 ## 6. mc control: constant-alpha
 
+Currently our update step for policy evaluation, generate an episode for each state action pair that was visited, we calculate the corresponding return $G_t$ that follows, then we use that return to get an updated estimate.
+$$
+Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \frac{1}{N(S_t, A_t)} (G_t - Q(S_t, A_t))
+$$
+We're going to look at this update step a bit closer with the aim of improving it. You can think of it as first calculating the difference between the most rectently sampled return $G_t$ and the corresponding value of the state action pair $Q(S_t, A_t)$ we will denote:
+$$
+\delta_t := G_t - Q(S_t, A_t) 
+$$
+We can think of it as an error term, it is: " **what the return actually was** minus **the return that we expect** "
+
+If $\delta_t \gt  0$ : it means the return that we received is more than what the value function expected in this case the action value is too low so we use this update step to increase the estimate. So we $increase~Q(S_t, A_t)$
+
+If $\delta_t < 0$: it means the return is higher than what the action value function expected so it makes sense to take into account this new evidence and $decrease~(Q_t, A_t)$.
+
+Currently the algorithm $decrease$ or $increase$ it by an amount proportional to $\frac{1}{N(S_t, A_t)}$, which is the number of times that we visited the state action pair already, so the first few times we visit the pair the change is likely to be quite large but at future time points the changes get smaller and smaller.
+
+With this in mind we will change the algorithm step size:
+$$
+Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha (G_t - Q(S_t, A_t))
+$$
+
+> The parameter $\alpha$ ensures that the returns that come later are more emphasised than those that arrived earlier in this way the agent will mostly trust the most recent returns and gradually forget about those that came in the past. This is quite important because the policy is constantly changing
 
 
 
-
-
+<img src="images/5-22_RL.png" style="height:225px">
 
 
 
