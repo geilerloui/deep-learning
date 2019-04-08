@@ -133,9 +133,23 @@ It will be similar to the MC method where we selected an action by using a polic
 
 The algorithm is known as Sarasa 0 also known as Sarasa for short; the name comes from the fact that each action value update uses a **S**tate **A**ction **R**eward next **S**tate next action
 
-## 5. TD Control: Sarsamax
 
 
+## 5. TD Control: Sarsamax ou Q-learning
+
+So far we already have one algorithm for temporal difference control. Remember that in the Sarsa algorithm we begin by initialising all action values to zero in constructing the corresponding epsilon greedy policy. Then the agent begins interacting with the environment and receives the first state. Next it uses the policy to choose its action immediately afterward it receives a reward and next state then the agent again uses the same policy to pick the next action. After choosing that action it updates the action value corresponding to the previous state action pair and improve the policy to be epsilon greedy with respect to the most recent estimate of the action values. (basically what I just said is what you can see on the image below)
+
+<img src="images/6-9_RL.png" style="height:225px">
+
+**Q-leaning:**
+
+----
+
+Next we'll build off this algorithm to design another control algorithm that works slightly differently. This algorithm is called Sarsa Max or Q-learning we'll still begin with the same initial values for the action values and the policies. The agent receives the initial state, the first action is still chosen from the initial policy but then after receiving the reward and next state ( $R_1, S_1$) we're going to do something else namely will update the policy before choosing the next action. 
+
+We will rely on the fast that the greedy action corresponding to a state is just the one that maximizes the action values for that state and so after we update the action value for a time step zero
+
+02-12
 
 
 
