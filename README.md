@@ -59,7 +59,7 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Lesson 3: Semi-Supervised GAN](https://github.com/geilerloui/deep-learning/tree/master/semi-supervised)
 * [Project: Face Generation](https://github.com/udacity/deep-learning/tree/master/face_generation): Use a DCGAN on the CelebA dataset to generate images of novel and realistic human faces.
 
-### 6. Deep Reinforcement Learning
+### 6. Reinforcement Learning
 
 * [Lesson 1: Introduction to RL](https://github.com/geilerloui/deep-learning/blob/master/reinforcement-learning/Lesson-1.md): Reinforcement learning is a type of Machine Learning where the machine or software agent learns how to maximize its performance at a task.
 * [Lesson 2: The RL Framework: The Problem](https://github.com/geilerloui/deep-learning/blob/master/reinforcement-learning/Lesson-2.md): Learn how to mathematically formulate tasks as Markov Decision Processes
@@ -69,6 +69,9 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 * [Lesson 5: Monte Carlo Methods](): Write your own implementation of Monte Carlo control to teach an agent to play Blackjack ! With OpenAI Gym: BlackjackEnv
 * [Lesson 6: Temporal-Difference Methods](): Learn about how to apply temporal-difference methods such as Sarsa, Q-Learning, and Expected Sarsa to solve both episodic and continuous tasks.
 * [Lesson 7: Solve OpenAI Gym's Taxi-v2 Task](): With reinforcement learning now in your toolbox, you're ready to explore a mini project using OpenAI Gym!
+
+### 7. Deep Reinforcement Learning
+
 * [Lesson 8: RL in Contunous Spaces](): Review the fundamental concepts of reinforcement learning, and learn how to adapt traditional algorithms to work with continuious spaces.
 * [Lesson 9: Deep Q-Learning](): Extend value-based reinforcement learning methods to complex problems using deep neural networks.
 * [Lesson 10: Policy-Based Methods](): Policy-based methods try to directly optimize for the optimal policy. LEarn, how they work, and why they are important, especially for domains with continuous action spaces.
