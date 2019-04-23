@@ -23,7 +23,7 @@ Every Agent has the goal to: **Maximize expected cumulative reward**.
 
 ## 3. Episodic vs. COntinuing tasks
 
-**Episodic Task:** Interaction ends at some time step $T$, we refer the sequence $S_0,A_0,R_1,…,R_T,S_T$ as an "Episode". At time $T$ we look at the total reward, and use it again for the next game.
+**Episodic Task:** Interaction ends at some time step $T​$, we refer the sequence $S_0,A_0,R_1,…,R_T,S_T​$ as an "Episode". At time $T​$ we look at the total reward, and use it again for the next game.
 
 > Example: A car crash, a tetris game is finished.
 
@@ -182,7 +182,7 @@ Because of this, we can completely define how the environment decides the state 
 $$
 p(s′,r∣s,a)≐P(S_{t+1}=s',R_{t+1}=r∣S_t=s,A_t=a)
 $$
-for each possible $s',r,s$ and $a$. These conditional probabilities are said to specify the **one-step dynamics** of the environment.
+for each possible $s',r,s​$ and $a​$. These conditional probabilities are said to specify the **one-step dynamics** of the environment.
 
 Then, when the environment responds to the agent at the next time step,
 

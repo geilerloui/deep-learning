@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This lesson covers material in **Chapter 6** (especially 6.1-6.6) of the textbook. In this lesson we will learn " temporal-difference " or TD learning, real life is not an episodic task, we will need to come up with something else than what we previously saw.
+This lesson covers material in **Chapter 6** (especially 6.1-6.6) of the textbook. In this lesson we will learn " temporal-difference " or TD learning, real life is not an episodic task, we will need to come up with something else than what we previously saw. **TD-learning is a combination of Monte Carlo ideas and dynamic programming idea**
 
 If an agent is playing chess, instead of waiting until the end of an episode to see if it's won the game or not, it will at every move be able to estimate the probability that it's wining the game, or a self-driving car at every turn will be able to estimate if it's likely to crash, and if necessary, amend its strategy to avoid disaster.
 
@@ -22,9 +22,11 @@ In the CliffWalking environment, the agent navigates a 4x12 gridworld with - ```
 
 ## 2. TD prediction: TD(0)
 
-We will continue with the trend of solving **The prediction Problem first** given a policy $\pi$ how do we evalute its value function $v_{\pi}$ ?
+We will continue with the trend of addressing **The prediction Problem first** given a policy $\pi​$ how do we evalute its value function $v_{\pi}​$ ?
 
 Let's build off how we did this in the previous lesson in our Monte Carlo approach. The agent interacted with the environment in episodes after an episode finished we looked at every state action pair in the sequence if it was a first visit we calculated the corresponding return and used it to update the action value and we did this for many many episodes.
+
+<img src="images/6-10_RL.png" style="height:200px">
 
 > **It's important to note that this algorithm is a solution for the prediction problem as long as we never change the policy between episodes and as long as we run the algorithm for long enough**
 
@@ -47,7 +49,7 @@ v_ \pi (s) &= \mathbb{E}_ \pi [G_t \mid S_t = s] \\
 $$
 
 
-To motivate a slightly different update rule so we instead of averaginf sample returns we average the sampled value of this sum plus all the rest
+To motivate a slightly different update rule so we instead of averaging sample returns we average the sampled value of this sum oplus all the rest
 $$
 V(S_t) \leftarrow V(S_t) + \alpha (R_{t+1} + \gamma V (S_{t+1}) - V(S_t))
 $$
@@ -63,7 +65,7 @@ Let's see what happen at an arbitrary timestep $t$
 
 <img src="images/6-3_RL.png" style="height:100px">
 
-
+**It is important to note that we won't have to wait until the end of the episode**
 
 We will rewrite the equation as:
 $$
@@ -77,7 +79,7 @@ $$
 V(S_t) \leftarrow R_{t+1} + \gamma V(S_{t+1})
 $$
 
-* $\alpha = 0$ : we would completely ignore the target and keep the old estimate unchanged, this is not something that we'd ever want to do because then our agent would never learn **but it will prove to set alpha to a small number**. The **smaller alpha the less we trust the target when performing an update**
+* $\alpha = 0​$ : we would completely ignore the target and keep the old estimate unchanged, this is not something that we'd ever want to do because then our agent would never learn **but it will prove to set alpha to a small number**. The **smaller alpha the less we trust the target when performing an update**
 
 $$
 V(S_t) \leftarrow V(S_t)
@@ -89,7 +91,7 @@ We will call the full algorithm **One step Temporal Difference**; the " One Step
 
 
 
-We begin by initializing the value of each state to zero then at everey time step the agent interacts with the environment choosing actions that are dictated by the policy and
+We begin by initializing the value of each state to zero then at every time step the agent interacts with the environment choosing actions that are dictated by the policy and
 
 **Continous tasks:**
 
@@ -127,7 +129,11 @@ Now that we adressed the Prediction Problem we're ready to move on to control.
 
 So how might an agent determine an optimal policy ? we'll build off the algorithm that we use to estimate the action value function in that case after the action is selected the agent updates its estimate and it's important to note that the agent uses the same policy at every time step to select the actions. But now to adapt this to produce a control algorithm we will gradually change the policy so that it becomes more optimal at every time step.
 
-It will be similar to the MC method where we selected an action by using a policy that's Epsilon greedy with respect to the current estimate of the action values. At the initial time step we begin by setting epsilon to 1 then $A_0$ and $A_1$ are chosen according to the equal probable random policy then at all future time steps after an action is chosen we update the action value function and create the corresponding epsilon greedy policy and as long as we provide appropriate values for epsilon the algorithm is supposed to converge.
+Recall
+
+<img src="images/5-21_RL.png" style="height:225px">
+
+It will be similar to the MC method where we selected an action by using a policy that's Epsilon greedy with respect to the current estimate of the action values. At the initial time step we begin by setting epsilon to 1 then $A_0​$ and $A_1​$ are chosen according to the equal probable random policy then at all future time steps after an action is chosen we update the action value function and create the corresponding epsilon greedy policy and as long as we provide appropriate values for epsilon the algorithm is supposed to converge.
 
 <img src="images/6-8_RL.png" style="height:225px">
 
